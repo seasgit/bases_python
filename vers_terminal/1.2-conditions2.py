@@ -1,3 +1,12 @@
+"""
+Objectif : 
+    variables  = concaténation de nombre et texte
+    Tirage aléatoire
+    Evaluations multiples
+    Affichage dans le terminal
+
+    
+"""
 import random
 ## heure
 r = random.randint(0,23)
@@ -18,11 +27,3 @@ else:
 print(out)
 
 
-
-"""
-Objectif : 
-    variables  = concaténation de nombre et texte
-    Tirage aléatoire
-    Evaluations multiples
-    Affichage dans le terminal
-"""

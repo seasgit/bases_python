@@ -1,3 +1,12 @@
+
+"""
+Jeu :
+    Proposez à l'utilisateur de trouver 
+    le symbole chosit par le programme
+    en moins de coups posssible.
+
+
+"""
 import random
 
 # liste de 3 symboles
@@ -11,14 +20,7 @@ i=0;
 while user_symbole != program_symbole:
     i+=1
     user_symbole =  input("quel symbole a choisit le programme ?")
-    print("Naaan !")
+    if user_symbole != program_symbole:
+        print("Naaan !")
 
 print("vous avez trouvé en "+ str(i) +" coup(s)")
-
-
-"""
-Jeu :
-    Proposez à l'utilisateur de trouver 
-    le symbole chosit par le programme
-    en moins de coups posssible.
-"""
